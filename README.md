@@ -8,7 +8,7 @@ looking to explore programming in Python, Space Dodge provides a fun interractiv
 
 ## Installation
 
-Make sure you have Python and pip installed. Then, install the required dependencies using:
+Make sure you have Python and pygame installed. Then, install the required dependencies using:
 
 ```bash
 pip install pygame
