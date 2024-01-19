@@ -6,6 +6,18 @@ an engaging and entertaining experience. This project is built with Python and V
 , offering easy controls. Whether you're a student or a developer 
 looking to explore programming in Python, Space Dodge provides a fun interractive experience
 
+### Windows
+
+1. **Install Git:**
+   - Download and install Git from the official website: [Git Downloads](https://git-scm.com/downloads).
+   - During installation, make sure to select the option to "Use Git from the Windows Command Prompt" or "Use Git and optional Unix tools from the Windows Command Prompt."
+   - Complete the installation.
+
+### macOS
+
+1. **Install Git:**
+   - Git is pre-installed on macOS. Open the Terminal and proceed with cloning
+
 ## Installation
 
 Make sure you have Python and pygame installed. Then, install the required dependencies using:
