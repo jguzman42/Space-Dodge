@@ -43,9 +43,70 @@ Example command to run the game:
 python main.py
 
 ```
+
+## Troubleshooting
+
+### Known Issues
+
+#### Asteroids Deletion Inconsistency
+
+**Issue:**
+Asteroids are getting deleted when they reach the halfway point of the screen instead of when they go completely off-screen.
+
+**Possible Cause:**
+This issue may be related to the logic responsible for detecting when an asteroid should be deleted.
+
+**Solution/Workaround:**
+If you encounter this issue, consider reviewing the asteroid deletion logic in the code. 
+Ensure that the condition for asteroid deletion is based on its position going completely 
+off-screen rather than reaching the halfway point.
+
+#### Score Incrementation Issue
+
+**Issue:**
+The score is getting incremented when asteroids are deleted in the middle of the screen, 
+contrary to the expected behavior of incrementing the score only when asteroids go completely off-screen.
+
+**Possible Cause:**
+This issue may be due to the scoring logic being triggered at the wrong point in the asteroid lifecycle.
+
+**Solution/Workaround:**
+To address this issue, check the scoring logic in the code. Make sure that the score is incremented only when an asteroid is successfully navigated off-screen. Adjust the scoring logic accordingly.
+
+### Reporting Issues
+
+If you encounter any issues not mentioned above or have suggestions for improvements, 
+please [open an issue](https://github.com/yourusername/yourproject/issues) on GitHub. 
+Provide detailed information about the problem, steps to reproduce it, and any relevant error messages. 
+Your feedback is valuable in improving the game for everyone.
+
+## Future Features and Enhancements
+
+I have exciting plans for the future development of this game! Here are some features and enhancements that I plan to add:
+
+### Power-Ups
+
+I'm working on introducing power-ups to enhance the gaming experience. Power-ups will provide players with unique abilities, such as invincibility, speed boosts. 
+Stay tuned for updates on when these power-ups will be implemented!
+
+### Leaderboard
+
+A leaderboard system is in the pipeline to track and display the top scores of players. 
+Compete with others and see how your skills compare to the rest of the gaming community. 
+I'm actively working on implementing this feature to make the game even more competitive and enjoyable.
+*Found in highscores.py file
+
+### How You Can Contribute
+
+We welcome contributions from the community! If you have ideas for additional features or enhancements, feel free to [open an issue](https://github.com/jguzman42/Space-Dodge/issues) on GitHub. 
+Your feedback and suggestions are valuable in shaping the future of the game.
+
+Stay tuned for updates as I continue to improve and expand the game. I appreciate your support and look forward to delivering an even more engaging gaming experience.
+
+
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
+I welcome contributions from the community! If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository by clicking the "Fork" button on the top right of this page.
 
