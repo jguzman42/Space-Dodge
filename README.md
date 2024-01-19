@@ -30,12 +30,12 @@ python main.py
 ```
 ## Usage
 
-Use the WASD keys or arrow keys to control the player's movement:
+Use the WASD keys or arrow keys to control the spaceship's movement:
 
-- **W or Up Arrow:** Move the player upward.
-- **A or Left Arrow:** Move the player to the left.
-- **S or Down Arrow:** Move the player downward.
-- **D or Right Arrow:** Move the player to the right.
+- **W or Up Arrow:** Move the spaceship upward.
+- **A or Left Arrow:** Move the spaceship to the left.
+- **S or Down Arrow:** Move the spaceship downward.
+- **D or Right Arrow:** Move the spaceship to the right.
 
 Example command to run the game:
 
